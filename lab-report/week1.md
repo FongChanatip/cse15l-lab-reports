@@ -37,3 +37,49 @@ input `yes`
 After this, the terminal will prompt you to input your password. Once the correct password has been entered, you will see something like the screenshot below
 
 ![image](../images/week1image2.png)
+
+Voila! You've successfully ssh into your ieng6 account.
+
+---
+
+## Section 3: Running some command
+
+In this section, we will be running some basic commands like `pwd`, `ls`, `mkdir`, `cd`, `touch`, `cat` while and edit text files using `nano`.
+
+First we can check what is the current working directory using the `pwd` command
+
+```
+[cs15lwi23ajo@ieng6-203]:~:33$ pwd
+/home/linux/ieng6/cs15lwi23/cs15lwi23ajo
+```
+
+As shown above, we are in the `/home/linux/ieng6/cs15lwi23/cs15lwi23ajo` directory
+
+From here, we can check the content of the current working directory using the `ls` command
+
+```
+[cs15lwi23ajo@ieng6-203]:~:34$ ls
+perl5
+```
+
+As shown in the snippet above, we have one content in this directory called `perl5`
+
+We can create a new directory using the `mkdir <directory name>` command
+
+```
+[cs15lwi23ajo@ieng6-203]:~:35$ mkdir lab1
+[cs15lwi23ajo@ieng6-203]:~:36$ ls
+lab1  perl5
+```
+
+In the snipped above, we have created a new directory called `lab1`, and using the `ls` command, we can see that `lab1` directory has been created.
+
+We can change the current directory using the `cd <path>` command. 
+
+```
+[cs15lwi23ajo@ieng6-203]:~:37$ cd lab1 
+[cs15lwi23ajo@ieng6-203]:lab1:38$ pwd 
+/home/linux/ieng6/cs15lwi23/cs15lwi23ajo/lab1
+```
+
+In this case, we wanted to change the current directory to the newly created one using the `cd lab1` command. Using the `pwd` command we can check that we have successfully changed the current working directory.
