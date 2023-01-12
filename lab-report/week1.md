@@ -83,3 +83,36 @@ We can change the current directory using the `cd <path>` command.
 ```
 
 In this case, we wanted to change the current directory to the newly created one using the `cd lab1` command. Using the `pwd` command we can check that we have successfully changed the current working directory.
+
+We can then create a new file using `touch <file>` command as shown below.
+
+```
+[cs15lwi23ajo@ieng6-203]:lab1:39$ touch HelloWorld.txt
+[cs15lwi23ajo@ieng6-203]:lab1:40$ ls
+HelloWorld.txt
+```
+
+In order to edit the content of the file, we can use a tool called `nano` by typing in the command `nano <file>`. For example, if we want to edit the `HelloWorld.txt` file that we have just created, we can type in `nano HelloWorld.txt` which will bring up the interface below.
+
+![image](../images/week1image3.png)
+
+Here, you can type in the content of the file.
+
+![image](../images/week1image4.png)
+
+To save the changes, press `ctrl + x`, and the following prompt will pop up
+
+![image](../images/week1image5.png)
+
+Press `Y`
+
+![image](../images/week1image6.png)
+
+Press `Enter`
+
+We can then use `cat` command to check the content of the file
+
+```
+[cs15lwi23ajo@ieng6-203]:lab1:42$ cat HelloWorld.txt
+Hello World
+```
