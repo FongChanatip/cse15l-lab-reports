@@ -2,7 +2,7 @@
 
 ## Section 1: Installing VScode
 
-In order to install VScode go to [this link](https://code.visualstudio.com/) which will bring you to the page that look like the screenshot below. ![Image](../images/week1image1.png)
+In order to install VScode go to [this link](https://code.visualstudio.com/) which will bring you to the page that look like the screenshot below. ![Image](../images/report1/week1image1.png)
 
 Click the big blue button that says "Download" then follow the usuall step for installing a software on your operating system.
 
@@ -36,7 +36,7 @@ input `yes`
 
 After this, the terminal will prompt you to input your password. Once the correct password has been entered, you will see something like the screenshot below
 
-![image](../images/week1image2.png)
+![image](../images/report1/week1image2.png)
 
 Voila! You've successfully ssh into your ieng6 account.
 
@@ -94,19 +94,19 @@ HelloWorld.txt
 
 In order to edit the content of the file, we can use a tool called `nano` by typing in the command `nano <file>`. For example, if we want to edit the `HelloWorld.txt` file that we have just created, we can type in `nano HelloWorld.txt` which will bring up the interface below.
 
-![image](../images/week1image3.png)
+![image](../images/report1/week1image3.png)
 
 Here, you can type in the content of the file.
 
-![image](../images/week1image4.png)
+![image](../images/report1/week1image4.png)
 
 To save the changes, press `ctrl + x`, and the following prompt will pop up
 
-![image](../images/week1image5.png)
+![image](../images/report1/week1image5.png)
 
 Press `Y`
 
-![image](../images/week1image6.png)
+![image](../images/report1/week1image6.png)
 
 Press `Enter`
 
