@@ -32,6 +32,8 @@ $ grep -C [pattern] [file]
 
 ## Interesting command-line options for grep 1: -v option
 
+Found on: https://geekflare.com/grep-command-examples/
+
 The first seemingly interesting and useful command line option for grep is the inverse search feature. What this does is it will tell grep to exclude the pattern that was supplied to it.
 
 To use this feature, we simply add the tag `-v` to our grep command and it will invert the usual grep command. The following is the example of its usage on the `./written_2` directory.
@@ -194,6 +196,8 @@ If we break down this command down, we have three command-line options which are
 ---
 ## Command line option 2: -A, -B, and -C option
 
+Found on: https://geekflare.com/grep-command-examples/
+
 The `A`, `B`, and `C` option in grep tells it to print out the line below, above or both respectively of the word we are trying to find. The number of additional line to print out can be specified right after the option.
 
 ```
@@ -238,6 +242,8 @@ written_2 Fong$ grep -B3 -n "September" ./travel_guides/berlitz1/HandRMadeira.tx
 
 ## Command line option 3: color
 
+Found on: https://linuxhandbook.com/grep-command-examples/
+
 Sometime it is hard to spot the word you are searching for using grep. Thus, to fix this problem, we can tell grep to highlight the word in the output simply by putting `--color=[WHEN]` in the option.
 
 ![image](../images/report3/image1.png)
@@ -251,6 +257,8 @@ Here we added the `-r` option with the `--color` option to tell grep to recursiv
 ---
 
 ## Command line option 4: count
+
+Found on: https://javarevisited.blogspot.com/2011/06/10-examples-of-grep-command-in-unix-and.html#axzz7syk3Aq00
 
 Lastly, when we want to find the number of occurance of a specific word you're looking for in a file, we can use the `-c` option to tell grep to output the count.
 
